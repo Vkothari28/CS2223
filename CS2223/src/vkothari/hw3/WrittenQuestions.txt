@@ -1,0 +1,54 @@
+<<Vinit Kothari>>
+HW3
+Written Questions
+
+Q1. HeapSort Empirical Evaluation 
+Example Data:
+N	MaxComp	MaxExch
+16	25	11
+32	52	22
+64	115	48
+128	234	94
+256	473	186
+512	976	391
+
+  This supports the proposal because the number of compares is at most double the number of exchanges
+because we need two compares to determine whether to exchange an item with its
+greater child. And there are N-1 Exchanges for N items in a any heap when sunk. 
+Therefore if Exch is about N Comparisions must be about 2N in the worst case. 
+
+Q2. Recurrence Relationship
+---------------------------
+
+Determine C(N) for BinaryArraySearch and determine the upper bound (worst case)
+and the lower bound (best case).
+
+a. C(N) = C(N/2) + 1
+b. C(1) =  1
+C(N)=C(1) +log(N)
+C(N)= 1+ log(N)
+c.  Best Case: 1
+d. Worst Case: log(N) + 1 same as C(N)
+
+Q3. Sorted Linked Lists (25 pts)
+--------------------------------
+
+Complete implementation
+
+Report on the timing difference between your run and the example from Day 12.
+
+The timing difference between my run and the example from Day 12 showed that my run was 0.02  seconds faster as it gave 0.56 compared to 0.58(from day 12) which hence proves that the sequential sort that I have implemented is more  efficient.
+   
+Q4. Binary Search Tree (45 pts)
+-------------------------------
+
+Submit your code for BST
+
+BONUS QUESTIONS
+
+None yet, but I hope to add a few this week.
+
+
+
+
+

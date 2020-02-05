@@ -1,0 +1,58 @@
+<<Your Name Here>>
+HW1
+Written Questions
+
+Q1. Stack Experiments (30 Points):
+----------------------------------
+
+1.1. ( 2 + 3 + 4 ) is a well formatted and a proper expression, however it does not work as the result turns out to be 7. The ops stack has the The vals stack has the value 2.
+1.2. ( 9 - - 2 ) is not a well formatted expression and the result turns out to be 7. The ops stack has a null for the first element. The vals stack has the 2 "-" operators.  
+1.3. - 99 is not a valid expression as there can be no operation first  without there being a number before it, hence it does not work and the result is 99.  . The ops stack The vals stack has the "-" operator. 
+1.4. 2 * 3 + 7 /4 yields 1.75 which is not right. The ops stack becomes of size 2 and contains the "*" and "+" operators. The vals stack contains the result. 
+1.5. This operation is well formatted and yields the correct result which is 4.625.  The ops stack is empty. The vals stack contains 4.625 before being popped and nothing after. 
+1.6. check evaluate for added modulus and ceiling 
+1.7. The operation yields 2, which is right. The ops stack is empty. The vals stack contains the value 2    
+
+Also be sure to copy Evaluate to USERID.hw1, modify it, and include in your submission.
+
+Q2. ArraySearch Programming Exercise (30 Points):
+----------------------------------------------
+
+2.1 Submit modified RowOrderedArraySolution
+2.2 Submit modified BandedArraySolution 
+2.3 Submit modified SpiralArraySolution 
+
+Q3. Counting Computations Exercise (20 Points):
+-----------------------------------------------
+
+3.1 Enter formula for computing number of array inspections for UnknownArraySolution
+
+   f(n) = x^5 - 0.5x^4 +0.5x^2
+
+3.2 Enter formula for computing number of array inspections for ImprovedUnknownArraySolution
+
+   g(n) = x^5 -1.5x^4  -x^3 + 3.5x^2
+   
+
+Q4. Stack Programming Exercise (20 Points):
+-------------------------------------------
+
+4.1 Submit modified Computation 
+
+
+
+
+-------------------------------------------
+
+There are some bonus questions on the homework. If you attempt these, be sure to 
+clearly identify that you have done so in this written homework
+
+Q2.1.1 Bonus
+Q2.2.1 Bonus
+Q2.3.1 Bonus
+BQ5 FractalArraySolution
+
+
+
+
+
